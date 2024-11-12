@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family:source sans;
+}
+
+/* nav */
+.navbar {
+    overflow: hidden;
+    background-color: #423f3f;
+  }
+.rightpart a{
+    float: right;
+    padding: 13px 30px;
+    color: rgb(247, 242, 242); 
+}
+.rightpart a:hover{
+    color: rgb(235, 225, 225);
+    background-color: rgb(79, 118, 149);
+}
+.leftpart a{
+    float: left;
+    padding: 13px 18px;
+    color: rgb(247, 242, 242);
+    background-color: rgb(55, 120, 86);
+}
+
+/* banner */
+.college{
+    width: 100%;
+}
+/* container */
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap:200px; 
+}
+
+/* btn-container */
+button{
+    margin-top: 50px;
+    color: rgb(27, 21, 22);
+    background-color: rgb(90, 140, 206);
+    border-radius: 20px;
+    padding:12px 24px;
+    font-size: 36px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow:5px 5px 5px rgb(68, 112, 68);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+button:hover{
+    transform: translateY(-2px);
+}
+button:active{
+    transform:translateY(1px);
+    box-shadow:0px 2px 4px grey;
+}
+
+/* container-below */
+.footer{
+    height: 200px;
+    margin-top: 50px;
+    background-color: rgb(18, 30, 66);
+}
+.MRCE{
+    text-align: center;
+    padding-top:50px;
+    font-size:7em;
+    color: white;
+}
